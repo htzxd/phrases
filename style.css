@@ -13,9 +13,12 @@
 }
 
 header {
-  font-size: 2.4rem;
+  margin-top: 3rem;
+  font-size: 3.6rem;
   font-style: italic;
   color: var(--main-color);
+  grid-area: A;
+  text-align: center;
 }
 
 body, a {
@@ -26,29 +29,64 @@ body, a {
 
 .container {
   background-color: var(--bg-color);
+  display: grid;
   height: 100vh;
+  grid-template-areas: 
+  "A A A"
+  "B B B"
+  "C C C";
+}
 
+main {
+  grid-area: B;
+}
+
+.box {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.sets {
+  height: 20rem;
+  width: 50rem;
+  background: var(--main-color);
+  
+  place-content: center;
+  text-align: center;
+
+  margin-inline: 2rem;
+  border-radius: 8px;
+}
+
+.btn {
+  margin-top: 2rem;
+  display: flex;
+  
   justify-content: center;
   align-items: center;
 }
 
-p {
-  background: var(--main-color);
-
-  width: 23.75rem;
-  height: 12.125rem;
-  padding: 2rem;
-  border-radius: 8px;
+input {
+  margin-right: 1rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 footer {
   font-style: italic;
-  background: var(--main-color);
-  padding: 2rem;
-  border-radius: 8px;
+  
+  grid-area: C;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    background: var(--main-color);
+    border-radius: 8px;
+    padding: 2rem;
+  }
 
   a {
     color: var(--color-hover);
