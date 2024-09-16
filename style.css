@@ -39,6 +39,7 @@ body, a {
 
 main {
   grid-area: B;
+  margin-inline: 1rem;
 }
 
 .box {
@@ -48,13 +49,14 @@ main {
 }
 
 .sets {
-  height: 20rem;
-  width: 50rem;
+  max-height: 20rem;
+  max-width: 50rem;
   background: var(--main-color);
   
   place-content: center;
-  text-align: center;
+  font-style: italic;
 
+  padding: 3rem;
   margin-inline: 2rem;
   border-radius: 8px;
 }
@@ -63,15 +65,15 @@ main {
   margin-top: 2rem;
   display: flex;
   
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+
   justify-content: center;
   align-items: center;
 }
 
-input {
-  margin-right: 1rem;
-  height: 3rem;
-  width: 3rem;
-}
+
 
 footer {
   font-style: italic;
@@ -91,4 +93,12 @@ footer {
   a {
     color: var(--color-hover);
   }
+}
+
+@media (max-width: 527px){
+  .sets, .btn {
+    font-size: 1.4rem;
+  }
+  
+  
 }
