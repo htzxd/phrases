@@ -59,6 +59,7 @@ img {
   background: var(--main-color);
   
   place-content: center;
+  text-align: center;
   font-style: italic;
 
   padding: 3rem;
