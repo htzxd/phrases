@@ -21,10 +21,11 @@ header {
   text-align: center;
 }
 
-body, a {
+body {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
   color: white;
+  cursor: default;
 }
 
 .container {
@@ -40,6 +41,10 @@ body, a {
 main {
   grid-area: B;
   margin-inline: 1rem;
+}
+
+img {
+  cursor: pointer;
 }
 
 .box {
@@ -73,8 +78,6 @@ main {
   align-items: center;
 }
 
-
-
 footer {
   font-style: italic;
   
@@ -99,6 +102,4 @@ footer {
   .sets, .btn {
     font-size: 1.4rem;
   }
-  
-  
 }
