@@ -23,41 +23,41 @@ function previousPhrase(e){
 const phrases = [
   {
     id : 0,
-    paragraph : "oi to com saudades!",
-    tittle: "leticia"
+    paragraph : "Oi to com saudades!",
+    tittle: "Leticia"
   },
   {
     id : 1,
-    paragraph : "eu gosto muito de você!",
+    paragraph : "Eu gosto muito de você!",
     tittle: "santos"
   },
   {
     id: 2,
-    paragraph: `tava fazendo isso aqui ${`</br>`} 
+    paragraph: `Tava fazendo isso aqui </br>
     (seja oque for) e lembrei de você!`,
-    tittle: "ostrufka"
+    tittle: "Ostrufka"
   },
   {
     id: 3,
-    paragraph: "maior besteira né?",
+    paragraph: "Maior besteira né?",
     tittle: "acertei"
   },
   {
     id: 4,
-    paragraph: `mas todas as vezes que eu te vejo 
-    ${`</br>`}  é como se fosse a primeira!`,
-    tittle: "a ordem"
+    paragraph: `Mas todas as vezes que eu te vejo 
+    </br>  é como se fosse a primeira!`,
+    tittle: "A ordem"
   },
   {
     id: 5,
-    paragraph: `e todos os beijos que eu te dou ${`</br>`}
+    paragraph: `E todos os beijos que eu te dou </br>
     é como se fossem unicos!`,
-    tittle: "agora?"
+    tittle: "Agora?"
   },
   {
     id: 6,
-    paragraph: "tchau, pipoca!",
-    tittle: "beijos!"
+    paragraph: "Tchau, pipoca!",
+    tittle: "Beijos!"
   }
 ];
 

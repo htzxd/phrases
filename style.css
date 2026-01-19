@@ -13,12 +13,21 @@
 }
 
 header {
+  background-color: rgb(29, 18, 48);
+  margin-bottom: 2rem;
+  max-height: 16rem;
+  text-align: center;
+  
+  
+  grid-area: A;
+  text-align: center;
+}
+
+h1 {
   margin-top: 3rem;
   font-size: 3.6rem;
   font-style: italic;
   color: var(--main-color);
-  grid-area: A;
-  text-align: center;
 }
 
 body {
@@ -29,7 +38,9 @@ body {
 }
 
 .container {
-  background-color: var(--bg-color);
+  background-image: url(assets/monkas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: grid;
   height: 100vh;
   grid-template-areas: 
@@ -67,7 +78,7 @@ img {
   border-radius: 8px;
 }
 
-.btn {
+.copy {
   margin-top: 2rem;
   display: flex;
   
